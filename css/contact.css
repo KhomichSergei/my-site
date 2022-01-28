@@ -193,8 +193,10 @@
   }
 }
 
+/*карта*/
+
 .map-responsive {
-  margin-top: 100px;
+  margin-top: 50px;
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
@@ -205,5 +207,4 @@
   top: 0;
   height: 100%;
   width: 100%;
-  position: absolute;
 }
