@@ -92,6 +92,10 @@ img.about__absolute--foto {
   .about__background-blue {
     margin-top: 60px !important;
   }
+
+  .font-italic {
+    line-height: 70px !important;
+  }
 }
 
 .about__background-blue {
