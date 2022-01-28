@@ -1,0 +1,116 @@
+/*About*/
+
+.cover__wrapper--about {
+  padding: 10px;
+  line-height: 34px;
+  background: linear-gradient(
+      72.73deg,
+      rgba(0, 0, 0, 0.39) 10.01%,
+      rgba(5, 96, 136, 0.65) 97.45%
+    ),
+    url(../image/MainPage/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: 30% 30%;
+  background-size: cover;
+  min-height: 50vh;
+}
+
+.page__about--title {
+  text-align: center;
+  padding-top: 20vh;
+}
+
+.block__about {
+  margin-top: 50px;
+}
+
+.about__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__row--inner-text .subtitle {
+  font-weight: 400;
+  text-align: left;
+  margin-top: 32px;
+}
+
+.about__row--inner-pictures {
+  flex: 1 1 50%;
+  position: relative;
+  align-self: flex-start;
+}
+
+.about__row--inner-text {
+  flex: 1 1 50%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.about__row--inner-pictures img {
+  width: 100%;
+  height: auto;
+}
+
+img.about__absolute--foto {
+  position: absolute;
+  right: -20%;
+  bottom: -10%;
+  width: 80%;
+}
+
+@media (max-width: 900px) {
+  .block__about {
+    margin-top: 20px;
+  }
+
+  .about__row--inner-text .subtitle {
+    font-weight: 400;
+    text-align: center;
+    margin-top: 16px;
+  }
+  .about__row {
+    flex-direction: column-reverse;
+  }
+
+  .about__row--inner-pictures {
+    align-self: stretch;
+    margin-top: 20px;
+  }
+  img.about__absolute--foto {
+    position: absolute;
+    right: 10%;
+    left: 10%;
+    bottom: -15%;
+    width: 80%;
+  }
+
+  .box_two {
+    flex-direction: column;
+  }
+
+  .about__background-blue {
+    margin-top: 60px !important;
+  }
+}
+
+.about__background-blue {
+  background: url("../image/Page2/About-backblue.jpg") no-repeat;
+  margin-top: 115px;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-title {
+  color: white;
+  margin-top: 20px;
+}
+.about-subtitle {
+  color: white;
+}
+.font-italic {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 54px;
+}
