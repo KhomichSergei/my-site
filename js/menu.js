@@ -10,67 +10,57 @@ $(document).ready(function() {
         window.onscroll = () => {
           if (window.pageYOffset > 50) {
             header.classList.add('header_active');
-             } else {
-               header.classList.remove('header_active')
-             }
+            } else {
+            header.classList.remove('header_active')
+            }
         };
         }());
 
 
 
+$(function() {
 
-
-
-
-        
-
-        $(function() {
-
-          $('.slider-for').slick({
-                      slidesToShow: 1,
-                      slidesToScroll: 1,
-                      arrows: false,
-                      fade: true,
-                      asNavFor: '.slider-nav'
-                    });
-                    $('.slider-nav').slick({
-                      slidesToShow: 3,
-                      slidesToScroll: 1,
-                      asNavFor: '.slider-for',
-                      dots: true,
-                      centerMode: true,
-                      focusOnSelect: true,
+  $('.slider-for').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.slider-nav'
+      });
+$('.slider-nav').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.slider-for',
+    dots: true,
+    centerMode: true,
+    focusOnSelect: true,
                       
-                      responsive: [
-                        {
-                          breakpoint: 900,
-                          settings: {
-                          slidesToShow: 2,
-                          slidesToScroll: 1,
-                          }
-                        },
-                        {
-                          breakpoint: 699,
-                          settings:  
-                          {
+      responsive: [
+                    {
+        breakpoint: 900,
+        settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+                  }
+                    },
+                      {
+        breakpoint: 699,
+          settings:  
+                  {
                 
-                            slidesToShow: 1,
-                            slidesToScroll: 1,
-                          }
-                        }
-                      ]
-
-
-                      
-                    });
-     
+            slidesToShow: 1,
+            slidesToScroll: 1,
+                  }
+                      }
+                  ]
+                });
         })
 
 
 
 $(function() {
 
- $('.center').slick({
+$('.center').slick({
   dots: true,
   autoplay: true,
   autoplaySpeed: 3000,
@@ -101,14 +91,8 @@ $(function() {
   ]
 });
 
-
 })
-        
-    
 
 
 
 
-        
-    
-        
